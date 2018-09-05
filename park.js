@@ -1,9 +1,9 @@
-const Dinosaur = require('../park')
+const Dinosaur = require('./dinosaur')
 
 const Park = function(name, ticketPrice){
   this.name = name;
   this.ticketPrice = ticketPrice;
-  this.dinosaurs [];
+  this.dinosaurs = [];
 }
 
 Park.prototype.addDinosaur = function(dinosaur){

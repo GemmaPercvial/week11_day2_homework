@@ -1,4 +1,4 @@
-const Park = require('../park');
+const Park = require('./park');
 
 const Dinosaur = function(){
   this.species = species;
